@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Code\Memory">
+      <UniqueIdentifier>{2ff61ad6-60a6-4c6b-b811-d0259b5ec00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Crypter">
+      <UniqueIdentifier>{d6e3ae34-24d9-4983-a33c-27098df011c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Overlay">
+      <UniqueIdentifier>{1c508264-c5b8-4ef5-a6b5-a51252982a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Overlay\ImGui">
+      <UniqueIdentifier>{d0ff11fb-95f6-4b82-a392-4bb643fb6594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Memory\MinHook">
+      <UniqueIdentifier>{89b94434-0623-46b5-853a-a40e1d987981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Memory\MinHook\hde">
+      <UniqueIdentifier>{92464d83-3b54-4399-a46a-fcb69613dfd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Overlay\kiero">
+      <UniqueIdentifier>{ea279ca7-7880-4333-aa9e-c1b13250ba0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Mono">
+      <UniqueIdentifier>{d04b76d0-34b7-438a-ad51-2fb85177f710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Engine">
+      <UniqueIdentifier>{3d9ea945-d7eb-43da-a81c-194b002d01ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Log">
+      <UniqueIdentifier>{98572b0c-1984-4e32-8d2c-5998bda16e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Config">
+      <UniqueIdentifier>{97709d63-cd76-42a5-8540-195739ced065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\AntiCheat">
+      <UniqueIdentifier>{df3a3a88-9d47-4057-aa61-09998ce1690b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Lock">
+      <UniqueIdentifier>{77997cc2-db0f-42d5-873b-16ad4228d76c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\Render.cpp">
+      <Filter>Code\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui.cpp">
+      <Filter>Code\Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_demo.cpp">
+      <Filter>Code\Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_draw.cpp">
+      <Filter>Code\Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_impl_dx11.cpp">
+      <Filter>Code\Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_impl_win32.cpp">
+      <Filter>Code\Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_tables.cpp">
+      <Filter>Code\Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\ImGui\imgui_widgets.cpp">
+      <Filter>Code\Overlay\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MinHook\buffer.c">
+      <Filter>Code\Memory\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MinHook\hook.c">
+      <Filter>Code\Memory\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MinHook\trampoline.c">
+      <Filter>Code\Memory\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MinHook\hde\hde32.c">
+      <Filter>Code\Memory\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MinHook\hde\hde64.c">
+      <Filter>Code\Memory\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Pe.cpp">
+      <Filter>Code\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\kiero\kiero.cpp">
+      <Filter>Code\Overlay\kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="core.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Mono\Mono.cpp">
+      <Filter>Code\Mono</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Vector.cpp">
+      <Filter>Code\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Engine.cpp">
+      <Filter>Code\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\Log.cpp">
+      <Filter>Code\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Config\Config.cpp">
+      <Filter>Code\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiCheat\AntiCheat.cpp">
+      <Filter>Code\AntiCheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay\DrawFn.cpp">
+      <Filter>Code\Overlay\kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\ShareMemoryCheck.cpp">
+      <Filter>Code\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\Load.cpp">
+      <Filter>Code\Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Memory\Memory.hpp">
+      <Filter>Code\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imconfig.h">
+      <Filter>Code\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imgui.h">
+      <Filter>Code\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imgui_impl_dx11.h">
+      <Filter>Code\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imgui_impl_win32.h">
+      <Filter>Code\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imgui_internal.h">
+      <Filter>Code\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imstb_rectpack.h">
+      <Filter>Code\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imstb_textedit.h">
+      <Filter>Code\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\ImGui\imstb_truetype.h">
+      <Filter>Code\Overlay\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\buffer.h">
+      <Filter>Code\Memory\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\MinHook.h">
+      <Filter>Code\Memory\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\trampoline.h">
+      <Filter>Code\Memory\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\hde\hde32.h">
+      <Filter>Code\Memory\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\hde\hde64.h">
+      <Filter>Code\Memory\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\hde\pstdint.h">
+      <Filter>Code\Memory\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\hde\table32.h">
+      <Filter>Code\Memory\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MinHook\hde\table64.h">
+      <Filter>Code\Memory\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="GloBals.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypter\xorstr.hpp">
+      <Filter>Code\Crypter</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\kiero\kiero.h">
+      <Filter>Code\Overlay\kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="Mono\Mono.h">
+      <Filter>Code\Mono</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Vector.h">
+      <Filter>Code\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\Log.h">
+      <Filter>Code\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Engine.h">
+      <Filter>Code\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\Config.h">
+      <Filter>Code\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiCheat\AntiCheat.h">
+      <Filter>Code\AntiCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay\Overlay.h">
+      <Filter>Code\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock\Lock.h">
+      <Filter>Code\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Master.rc" />
+  </ItemGroup>
+</Project>
